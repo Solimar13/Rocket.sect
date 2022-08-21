@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #2F2E41;
+  --primary-text-color: #C2C2C2;
+  --secondary-text-color:#00BFA6;
+  --white: #FFFFFF;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: var(--background-color);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 120rem;
+  margin: auto;
+  margin-top: 7.1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+header nav a {
+  color: var(--white);
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
+
+main {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  margin-top: 10.1rem;
+}
+
+main h1 {
+  color: var(--white);
+  margin-bottom: 5.9rem;
+  font-size: 3.6rem;
+  line-height: 4rem;
+}
+
+main strong {
+  color: var(--secondary-text-color);
+}
+
+main em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+main p {
+  text-align: center;
+  color: var(--primary-text-color);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.8rem;
+}
