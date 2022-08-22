@@ -19,6 +19,7 @@ body {
   font-size: 1.6rem;
   background: var(--background-color);
   font-family: 'JetBrains Mono', monospace;
+  overflow-y: hidden;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
 .wrapper {
   max-width: 120rem;
   margin: auto;
-  margin-top: 7.1rem;
+  margin-top: 6rem;
 }
 
 header {
@@ -77,4 +78,29 @@ main p {
   color: var(--primary-text-color);
   font-family: 'Open Sans', sans-serif;
   line-height: 2.8rem;
+}
+
+.divider {
+  height: 1px;
+  width: 56.8rem;
+  background-color: var(--secondary-text-color);
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 2.7rem;
+}
+
+footer p {
+  text-align: center;
+  color: var(--white);
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+}
+
+footer p a {
+  color: var(--white);
+}
+
+.lock {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
